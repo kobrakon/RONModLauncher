@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>RON Mod Launcher</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest></ApplicationManifest>
+    <AssemblyName>RON Mod Launcher</AssemblyName>
+    <Authors>Zachary Braden</Authors>
+    <Company />
+    <Title>RON Mod Launcher</Title>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;8601;8618;8602;8600</NoWarn>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;8601;8618;8602;8600</NoWarn>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+</Project>
