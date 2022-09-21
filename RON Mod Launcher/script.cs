@@ -21,7 +21,6 @@ List<string> gamebankli = new();
 List<string> mebankli = new();
 Process gameProcess = new();
 bool IsOverride = false;
-
 Main();
 
 void Main()
@@ -40,8 +39,7 @@ void Main()
         Console.ReadLine();
     } else
     HandleIO();
-    Console.ReadLine(); // seriously who decided that the console should just auto kill itself when Main() is done regardless of if other stuff is running?
-    // cant async it either
+    Console.ReadLine();
 }
 
 void StartDaGame()
