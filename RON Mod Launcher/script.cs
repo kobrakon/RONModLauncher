@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using System.Reflection;
 
 string gamePath;
@@ -105,7 +105,7 @@ async void CleanupAsync()
         Console.WriteLine($"I/O => Returned FMOD bank {f}");
     });
 
-    Directory.EnumerateFiles(paks).ToList().ForEach((string s) =>
+    Directory.EnumerateFiles(gamePaks).ToList().ForEach((string s) =>
     {
         if (s.Contains("pakchunk99"))
         {
