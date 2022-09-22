@@ -7,5 +7,5 @@ When you run the launcher, it simply saves the game files that are going to be r
 folders. Then, when the game ends, all mod content is placed back into the modcontent folder and the game files are returned.
 The idea is that you can have a launcher that allows you to run mods, and then simply go back to loading it from Steam to be back to vanilla.
 ## Features PAK loading, VO loading, and FMOD loading
-Remember, if you have an issue and would like for it to be patched, make a new issue issue thread if one doesn't exist already, or keep track of an existing thread.
+Remember, if you have an issue and would like for it to be patched, make a new issue issue thread if one doesn't exist already, or keep track of an existing thread;
 I try to keep up with them as best as I can.
